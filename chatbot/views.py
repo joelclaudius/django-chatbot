@@ -1,6 +1,8 @@
 from django.http import JsonResponse
 from django.shortcuts import render
 
+# views
+
 def chatbot(request):
     if request.method == 'POST':
         message = request.POST.get('message')
