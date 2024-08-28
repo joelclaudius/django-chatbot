@@ -1,5 +1,5 @@
 from django.db import models
 
-#user mode
+#user model
 
 # Create your models here.
